@@ -1,7 +1,6 @@
 Feature: Amazon add and remove item from basket
 
-	As a user,
-	I should be able to add an item to basket,
+	As a user, I want to add an item to basket,
 	then remove the item from the basket
 
 	Background:

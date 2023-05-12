@@ -5,7 +5,7 @@ const one_time_purchase = "One-time purchase: ";
 let item_title = "";
 
 Given("I am on Amazon page", () => {
-  cy.visit("https://www.amazon.co.uk/");
+  cy.visit("/");
 });
 
 When("I enter {string} in the search box", (searchItem) => {
